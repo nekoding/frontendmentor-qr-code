@@ -37,7 +37,7 @@ main {
 .card-body {
     width: 100%;
     overflow: hidden;
-    padding-bottom: 2rem;
+    padding: 1rem;
 }
 
 .img-fluid {
@@ -61,12 +61,14 @@ h1 {
 }
 
 p {
-    font-size: 1em;
+    font-size: 0.99em;
     color: var(--dark-gray);
 }
 
 .text-center {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
